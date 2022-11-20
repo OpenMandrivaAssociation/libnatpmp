@@ -5,7 +5,7 @@
 Summary: Direct concurrent to the UPnP IGD specification
 Name: libnatpmp
 Version: 20150609
-Release: %mkrel 5
+Release: 1
 License: LGPLv2+
 Group: System/Libraries
 URL: http://miniupnp.free.fr/
@@ -39,7 +39,7 @@ libnatpmp. If you like to develop programs using miniupnpc, you will need
 to install libnatpmp-devel.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %make_build \
