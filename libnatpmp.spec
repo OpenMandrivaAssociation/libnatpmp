@@ -4,8 +4,8 @@
 
 Summary: Direct concurrent to the UPnP IGD specification
 Name: libnatpmp
-Version: 20150609
-Release: 2
+Version: 20230423
+Release: 1
 License: LGPLv2+
 Group: System/Libraries
 URL: http://miniupnp.free.fr/
