@@ -5,7 +5,7 @@
 Summary: Direct concurrent to the UPnP IGD specification
 Name: libnatpmp
 Version: 20230423
-Release: 1
+Release: 2
 License: LGPLv2+
 Group: System/Libraries
 URL: http://miniupnp.free.fr/
@@ -53,6 +53,9 @@ to install libnatpmp-devel.
 	INSTALLDIRLIB=%{buildroot}%{_libdir} \
 	INSTALLDIRINC="%{buildroot}%{_includedir}" \
 	INSTALLDIRBIN="%{buildroot}%{_bindir}"
+
+# Make install seems to forget this
+cp natpmp_declspec.h %{buildroot}%{_includedir}/
 
 rm -f %{buildroot}%{_libdir}/*.a
 
