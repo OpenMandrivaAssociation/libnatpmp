@@ -11,6 +11,7 @@ Group: System/Libraries
 URL: https://miniupnp.free.fr/
 Source: http://miniupnp.free.fr/files/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 %description
 libnatpmp is an attempt to make a portable and fully compliant
 implementation of the protocol for the client side. It is based on non
